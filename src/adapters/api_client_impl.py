@@ -1,7 +1,7 @@
 import requests
 from typing import List
-from src.core.entities.data_record import DataRecord
-from src.ports.api_client import ApiClient
+from core.entities.data_record import DataRecord
+from ports.api_client import ApiClient
 
 class ApiClientImpl(ApiClient):
     def fetch_data(self) -> List[DataRecord]:

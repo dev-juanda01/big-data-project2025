@@ -1,8 +1,8 @@
 import pandas as pd
 import json
 from typing import List
-from src.core.entities.data_record import DataRecord
-from src.ports.file_handler import FileHandler
+from core.entities.data_record import DataRecord
+from ports.file_handler import FileHandler
 
 
 class FileHandlerImpl(FileHandler):

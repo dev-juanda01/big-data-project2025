@@ -1,8 +1,8 @@
 import sqlite3
 import json
 from typing import List
-from src.core.entities.data_record import DataRecord
-from src.ports.database import Database
+from core.entities.data_record import DataRecord
+from ports.database import Database
 
 class DatabaseImpl(Database):
     def __init__(self):

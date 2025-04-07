@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import List
-from src.core.entities.data_record import DataRecord
+from core.entities.data_record import DataRecord
 
 class FileHandler(ABC):
     @abstractmethod
